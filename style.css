@@ -1,0 +1,116 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Cabeçalho */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+    color: white;
+  }
+  
+  header .logo img {
+    width: 100px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .cta {
+    background-color: #f1c40f;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Banner */
+  .banner {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .text-banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Formulário de Contato */
+  .formulario-contato {
+    padding: 40px;
+    background-color: #ffffff;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .formulario-contato label {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .formulario-contato input,
+  .formulario-contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .produtos {
+    padding: 40px;
+    background-color: #f7f7f7;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .produto {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .produto img {
+    width: 100%;
+    height: auto;
+    width: 150px;
+  }
+  
+  .catalogo-intro {
+    padding: 40px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  
